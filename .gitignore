@@ -1,0 +1,76 @@
+# Environment variables
+.env*
+!.env.example
+
+# Foundry & Forge
+cache/
+out/
+broadcast/
+/lib
+
+# Node modules (if using Hardhat/npm)
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Coverage reports
+coverage/
+coverage.json
+*.lcov
+
+# Hardhat files (if used)
+artifacts/
+typechain/
+typechain-types/
+
+# Local development
+.openzeppelin/
+.secret
+deployments/localhost/
+
+# Backup files
+*.backup
+*.bak
+*.tmp
+
+# Dependency directories
+dependencies/
+
+# Test artifacts
+test-results/
+
+# Verification files with sensitive data
+*-verification.json
+deployment-*.json
+
+# Private keys (should never be committed)
+private_key*
+*.pem
+*.key
+
+# Gas reports
+gas-report.txt
+.gas-snapshot
+
+# Solhint
+.solhint.json
+
+# Slither
+slither.db.json
